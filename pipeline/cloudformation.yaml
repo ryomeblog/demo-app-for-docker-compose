@@ -182,6 +182,7 @@ Resources:
     Properties:
       ManagedPolicyArns:
         - "arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryReadOnly"
+        - "arn:aws:iam::aws:policy/AmazonVPCFullAccess"
       AssumeRolePolicyDocument:
         Statement:
           - Action: sts:AssumeRole
